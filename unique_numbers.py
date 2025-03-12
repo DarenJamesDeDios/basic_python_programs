@@ -3,7 +3,7 @@ numbers = []
 while True:
     try:
         number = int(input("Enter Number: "))
-        if number in numbers:
+        if number in inputed_numbers:
             print("Duplicate")
         else:
             print("Unique")
