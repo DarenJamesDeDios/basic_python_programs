@@ -9,5 +9,7 @@ while True:
         #makes it exit if the number is invalid
         print("Invalid input! Enter an appropriate number please.")
         break
-
+if numbers:  
+    average = sum(numbers) / len(numbers)  #calculate the average
+    print(f"The average of the entered numbers is: {average}")
 
