@@ -15,3 +15,6 @@ for num in inputed_numbers:
     else:
         recorded.append(num)
 
+print("Numbers that have duplicates:")
+for num in duplicates:
+    print(num)
