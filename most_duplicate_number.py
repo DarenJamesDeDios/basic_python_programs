@@ -11,3 +11,8 @@ while True:
     except ValueError:
         print("Invalid input! Exiting.")
         break
+if numbers:
+    #in order to track the most common number and its count
+    most_common_num = None
+    most_common_count = 0
+    
