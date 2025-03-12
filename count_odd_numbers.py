@@ -2,19 +2,10 @@
 #Initialized
 oddnum = 0
 #Ask for user input
-print("Enter 10 Numbers:")
-num = int(input(""))
-num = int(input(""))
-num = int(input(""))
-num = int(input(""))
-num = int(input(""))
-num = int(input(""))
-num = int(input(""))
-num = int(input(""))
-num = int(input(""))
-num = int(input(""))
+for i in range(10):
+    num = int(input("Enter Number: "))
+    
 #Count odd numbers
-if num % 2 != 0:
-    oddnum += 1
-    print(oddnum)
-#Print how many
+    if num % 2 != 0:
+     oddnum += 1
+print(oddnum)
