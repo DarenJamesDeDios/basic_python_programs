@@ -7,6 +7,7 @@ while True:
             print("Duplicate")
         else:
             print("Unique")
+            numbers.append(number)
     except ValueError:
         break
 
