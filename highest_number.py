@@ -8,3 +8,9 @@ while True:
         #makes it exit if the number is invalid
         print("Invalid input!")
         break
+    #checking the highest one
+if inputed_numbers:
+    highest = inputed_numbers[0]
+    for numbers in inputed_numbers:
+        if numbers > highest:
+            highest = numbers
