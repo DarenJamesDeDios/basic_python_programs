@@ -20,4 +20,4 @@ if numbers:
         if count > most_common_count:
             most_common_count = count
             most_common_num = num
-            
+    print(f"The number with the most duplicates is {most_common_num}, appearing {most_common_count} times.")
