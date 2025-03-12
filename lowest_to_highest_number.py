@@ -10,3 +10,7 @@ while True:
     except ValueError:
         print("Invalid input, Try Again!") #To break the loop 
         break
+#To sort numbers in ascending order(lowest to highest)
+inputed_numbers.sort()
+
+print(inputed_numbers)
