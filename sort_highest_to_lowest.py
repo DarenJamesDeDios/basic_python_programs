@@ -14,3 +14,7 @@ while True:
         
         print("Invalid input! Exiting.")
         break
+    #to sort the list from highest to lowest (descending order)
+numbers.sort(reverse=True)
+
+print("Numbers from highest to lowest:", numbers)
