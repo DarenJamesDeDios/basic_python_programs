@@ -14,3 +14,4 @@ if inputed_numbers:
     for numbers in inputed_numbers:
         if numbers > highest:
             highest = numbers
+    print("The highest number entered is:", highest)
